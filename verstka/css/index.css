@@ -1,0 +1,37 @@
+.a {
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.undotted {
+    list-style-type: none;
+}
+
+.header__list__link {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1E0606;
+}
+
+.header__link {
+    font-family: 'Open Sans' serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1E0606;
+}
+
+.slides__list__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 110%;
+}
+
