@@ -4,86 +4,122 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/ContactUs.css">
+    <link rel="stylesheet" href="./css/Toys.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <title>ContactUs</title>
 </head>
 <body>
-    <header class="header">
-        <img class="header__image" src="" alt="logo">
+    <header class="header container">
+        <img class="header__logo" src="./common_icons/Union.png" alt="logo">
         <ul class="header__list">
-            <li class="header__list__item"><a class="header__list__link" href="#">Blog</a></li>
-            <li class="header__list__item"><a class="header__list__link" href="#">Catalog</a></li>
-            <li class="header__list__item"><a class="header__list__link" href="#">About Us</a></li>
+            <li class="header__list__item undotted"><a class="header__list__link a" href="#">BLOG</a></li>
+            <li class="header__list__item undotted"><a class="header__list__link a" href="#">CATALOG</a></li>
+            <li class="header__list__item undotted"><a class="header__list__link a" href="#">ABOUT US</a></li>
         </ul>
-        <img class="header__image" src="" alt="search">
-        <a class="header__link" href="#">Contact  Us</a>
+        <img class="header__image" src="./common_icons/Loupe.png" alt="search">
+        <a class="header__link a" href="#">CONTACT US</a>
     </header>
     <main>
-        <section class="where">
-            <h1 class="where__title">Contact Us</h1>
-            <a class="where__link" href="#">Home</a>
-            <img class="where__image" src="" alt="arrow">
-            <p class="where__description">Contact Us</p>
+        <section class="where container">
+            <h1 class="where__title">CONTACT US</h1>
+            <div class="first__wrap">
+                <a class="where__link a" href="#">Home</a>
+                <img class="where__image" src="./Toys_img/arrow.png" alt="arrow">
+                <p class="where__description">Contact Us</p>
+            </div>
         </section>
-        <form class="userdata" action="handler.php">
-            <label class="userdata__frame" for="username">Name<input type="text"></label>
-            <label class="userdata__frame" for="username">Phone<input type="text"></label>
-            <label class="userdata__frame" for="username">Email<input type="text"></label>
-            <label class="userdata__frame" for="username">Message<input type="text"></label>
-            <button class="userdata__accept" type="button"></button>
-            <p class="userdata__description">By clicking on the button, you consent to the processing of your personal data</p>
-            <button class="userdata__accept" type="button">SUBMIT</button>
-        </form>
-        <section class="describe">
-            <p class="describe__description">Our support team are on-hand to assist with any<br>issues you are experiencing.</p>
-            <p class="describe__description">Please use the form to contact us with your needs.<br>Send us a message and we'll respond as soon as<br>possible.</p>
-            <h2 class="describe__title">An expert is waiting to help you!</h2>
+        <section class="back2 container">
+            <form class="userdata" action="handler.php">
+                <div class="last_wrap">
+                    <label class="userdata__frame otstup" for="username">Name</label>
+                    <input class="text1" type="text">
+                </div>
+                <div class="special_wrap">
+                    <div class="perfect_wrap">
+                        <label class="userdata__frame" for="username">Phone</label>
+                        <input class="text2" type="text">
+                    </div>
+                    <div class="perfect_wrap">
+                        <label class="userdata__frame" for="username">Email</label>
+                        <input class="text3" type="text">
+                    </div>
+                </div>
+                <div class="last_wrap">
+                    <label class="userdata__frame" for="username">Message</label>
+                    <input class="text4" type="text">
+                </div>
+                <div class="accept_setting">
+                    <input class="check" type="checkbox" id="accept" value="yes">
+                    <label class="condition" for="accept">By clicking on the button, you consent to the processing of your personal data</label>
+                </div>
+                <div class="needed"><button class="special__button special__write button_wrap" type="button">SUBMIT</button></div>
+            </form>
+            <section class="describe">
+                <p class="describe__description">Our support team are on-hand to assist with any<br>issues you are experiencing.</p>
+                <p class="describe__description">Please use the form to contact us with your needs.<br>Send us a message and we'll respond as soon as<br>possible.</p>
+                <h2 class="describe__title">An expert is waiting to help you!</h2>
+            </section>
         </section>
     </main>
-    <footer class="footer">
-        <section class="footer__inner">
-            <h2 class="footer__inner__title">Navigation</h2>
-            <ul class="footer__inner__list">
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#">About Us</a></li>
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#">Blog</a></li>
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#">Design Services</a></li>
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#">Featured On</a></li>
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#">2018 Holiday Catalog</a></li>
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#">Shop By Designer</a></li>
-            </ul>
+    <footer class="footer__contact">
+        <section class="third__wrap">
+            <section class="footer__inner">
+                <h2 class="footer__inner__title">Navigation</h2>
+                <img class="short__line" src="./common_icons/Line.png" alt="line">
+                <ul class="footer__inner__list">
+                    <li class="footer__inner__list__item__first undotted"><a class="footer__inner__list__link a" href="#">About Us</a></li>
+                    <li class="footer__inner__list__item undotted"><a class="footer__inner__list__link a" href="#">Blog</a></li>
+                    <li class="footer__inner__list__item undotted"><a class="footer__inner__list__link a" href="#">Design Services</a></li>
+                    <li class="footer__inner__list__item undotted"><a class="footer__inner__list__link a" href="#">Featured On</a></li>
+                    <li class="footer__inner__list__item undotted"><a class="footer__inner__list__link a" href="#">2018 Holiday Catalog</a></li>
+                    <li class="footer__inner__list__item undotted"><a class="footer__inner__list__link a" href="#">Shop By Designer</a></li>
+                </ul>
+            </section>
+            <section class="footer__inner">
+                <h2 class="footer__inner__title">Customer Information</h2>
+                <img class="short__line" src="./common_icons/Line.png" alt="line">
+                <ul class="footer__inner__list">
+                    <li class="footer__inner__list__item__first undotted"><a class="footer__inner__list__link a" href="#">Contact Us</a></li>
+                    <li class="footer__inner__list__item undotted"><a class="footer__inner__list__link a" href="#">Sale Exclusions</a></li>
+                    <li class="footer__inner__list__item undotted"><a class="footer__inner__list__link a" href="#">Shipping & Returns</a></li>
+                    <li class="footer__inner__list__item undotted"><a class="footer__inner__list__link a" href="#">Shipping & Returns</a></li>
+                    <li class="footer__inner__list__item undotted"><a class="footer__inner__list__link a" href="#">Privacy Policy</a></li>
+                    <li class="footer__inner__list__item undotted"><a class="footer__inner__list__link a" href="#">Search</a></li>
+                </ul>
+            </section>
+            <section class="footer__inner">
+                <h2 class="footer__inner__title">Connect</h2>
+                <img class="short__line" src="./common_icons/Line.png" alt="line">
+                <form class="email" action="handler.php">
+                    <label class="email__frame" for="username"><input class="type__area" type="text" placeholder="Email"></label>
+                    <button class="footer__button special__write a" type="button">JOIN</button>
+                </form>
+                <ul class="footer__inner__list__partners">
+                    <li class="footer__inner__list__item undotted"><a class="footer__inner__list__link a" href="#"><img class="footer__inner__list__image" src="./common_icons/Facebook.png" alt="facebook logo"></a></li>
+                    <li class="footer__inner__list__item undotted"><a class="footer__inner__list__link a" href="#"><img class="footer__inner__list__image" src="./common_icons/Twitter.png" alt="twitter logo"></a></li>
+                    <li class="footer__inner__list__item undotted"><a class="footer__inner__list__link a" href="#"><img class="footer__inner__list__image" src="./common_icons/Pinterest.png" alt="some logo"></a></li>
+                    <li class="footer__inner__list__item undotted"><a class="footer__inner__list__link a" href="#"><img class="footer__inner__list__image" src="./common_icons/Instagram.png" alt="instagram logo"></a></li>
+                </ul>
+            </section>
         </section>
-        <section class="footer__inner">
-            <h2 class="footer__inner__title">Customer Information</h2>
-            <ul class="footer__inner__list">
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#">Contact Us</a></li>
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#">Sale Exclusions</a></li>
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#">Shipping & Returns</a></li>
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#">Shipping & Returns</a></li>
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#">Privacy Policy</a></li>
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#">Search</a></li>
-            </ul>
-        </section>
-        <section class="footer__inner">
-            <h2 class="footer__inner__title">Connect</h2>
-            <button type="button">JOIN</button>
-            <ul class="footer__inner__list">
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#"><img class="footer__inner__list__image" src="" alt="facebook logo"></a></li>
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#"><img class="footer__inner__list__image" src="" alt="twitter logo"></a></li>
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#"><img class="footer__inner__list__image" src="" alt="some logo"></a></li>
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#"><img class="footer__inner__list__image" src="" alt="instagram logo"></a></li>
-            </ul>
-        </section>
-        <section class="footer__inner">
+        <section class="footer__inner__bottom container">
             <h2 class="hidden">Something needed</h2>
-            <p class="footer__inner__description">Company rating</p>
-            <ul class="footer__inner__list">
-                <li class="footer__inner__list__item"><img class="footer__inner__image" src="#" alt="star"></li>
-                <li class="footer__inner__list__item"><img class="footer__inner__image" src="#" alt="star"></li>
-                <li class="footer__inner__list__item"><img class="footer__inner__image" src="#" alt="star"></li>
-                <li class="footer__inner__list__item"><img class="footer__inner__image" src="#" alt="star"></li>
-                <li class="footer__inner__list__item"><img class="footer__inner__image" src="#" alt="star"></li>
-            </ul>
-            <p class="footer__inner__description">Copyright © 2018 Dlk • Design Life Kids</p>
-            <p class="footer__inner__description">Web Design — Direct Line Development</p>
+            <img class="long__line" src="./common_icons/Long_line.png" alt="long_line">
+            <div class="last__wrap">
+                <p class="footer__inner__description">Company rating</p>
+                <ul class="footer__inner__list__stars">
+                    <li class="footer__inner__list__item undotted"><img class="footer__inner__image" src="./common_icons/Star.png" alt="star"></li>
+                    <li class="footer__inner__list__item undotted"><img class="footer__inner__image" src="./common_icons/Star.png" alt="star"></li>
+                    <li class="footer__inner__list__item undotted"><img class="footer__inner__image" src="./common_icons/Star.png" alt="star"></li>
+                    <li class="footer__inner__list__item undotted"><img class="footer__inner__image" src="./common_icons/Star.png" alt="star"></li>
+                    <li class="footer__inner__list__item undotted"><img class="footer__inner__image" src="./common_icons/Star.png" alt="star"></li>
+                </ul>
+                <p class="footer__inner__description__k">Copyright © 2018 Dlk • Design Life Kids</p>
+                <p class="footer__inner__description__d">Web Design — Direct Line Development</p>
+            </div>
         </section>
     </footer>
 </body>

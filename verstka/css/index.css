@@ -1,8 +1,6 @@
 .common_back {
     background-color: #EEE4DB;
     margin-top: 129px;
-    margin-left: 110px;
-    margin-right: 110px;
     display: flex;
     padding-bottom: 63px;
 }
@@ -54,7 +52,7 @@
     width: 635.49px;
     height: 461px;
     position: absolute;
-    margin-left: 425px;
+    margin-left: 460px;
     margin-right: 99.51px;
     margin-top: -89px;
 }
@@ -84,8 +82,6 @@
     background-color: #C29974;
     padding-top: 11px;
     padding-bottom: 11px;
-    margin-left: 110px;
-    margin-right: 110px;
     margin-top: 0px;
     margin-bottom: 90px;
 }
@@ -100,17 +96,12 @@
     color: #FFFFFF;;
 }
 
-
-
-
-
 .categories__title {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 38px;
     line-height: 46px;
-    margin-left: 110px;
 }
 
 .categories__list__item__h {
@@ -140,9 +131,7 @@
 
 .categories__list {
     display: flex;
-    gap: 30px;
-    margin-left: 69px;
-    margin-right: 110px;
+    margin-left: -40px;
     justify-content: space-between;
 }
 
@@ -204,7 +193,6 @@
 }
 
 .categories__switches {
-    margin-left: 110px;
     margin-top: 33px;
 }
 
@@ -214,7 +202,7 @@
 
 .categories__description {
     display: flex;
-    margin-left: 190px;
+    margin-left: 80px;
     margin-top: -39px;
     padding-bottom: 90px;
     font-family: 'Open Sans';
@@ -246,11 +234,9 @@
 
 .banner {
     display: flex;
-    margin-left: 110px;
 }
 
 .banner__list {
-    margin-left: 15px;
     margin-bottom: 60px;
 }
 
@@ -305,9 +291,7 @@
 
 .about__list {
     display: flex;
-    margin-left: 70px;
-    margin-right: 110px;
-    gap: 92px;
+    gap: 90px;
     margin-top: 90px;
 }
 
@@ -341,8 +325,6 @@
 
 .another__wrap {
     display: flex;
-    margin-left: 110px;
-    margin-right: 110px;
     margin-top: 100px;
     gap: 30px;
 }
@@ -397,7 +379,7 @@
     position: absolute;
     width: 450px;
     height: 250px;
-    margin-left: 580px;
+    margin-left: 660px;
     margin-top: 160px;
 }
 

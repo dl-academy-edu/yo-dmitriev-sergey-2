@@ -4,160 +4,199 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/Toys.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Toys</title>
 </head>
 <body>
-    <header class="header">
-        <img class="header__image" src="" alt="logo">
+    <header class="header container">
+        <img class="header__logo" src="./common_icons/Union.png" alt="logo">
         <ul class="header__list">
-            <li class="header__list__item"><a class="header__list__link" href="#">Blog</a></li>
-            <li class="header__list__item"><a class="header__list__link" href="#">Catalog</a></li>
-            <li class="header__list__item"><a class="header__list__link" href="#">About Us</a></li>
+            <li class="header__list__item undotted"><a class="header__list__link a" href="#">BLOG</a></li>
+            <li class="header__list__item undotted"><a class="header__list__link a" href="#">CATALOG</a></li>
+            <li class="header__list__item undotted"><a class="header__list__link a" href="#">ABOUT US</a></li>
         </ul>
-        <img class="header__image" src="" alt="search">
-        <a class="header__link" href="#">Contact  Us</a>
+        <img class="header__image" src="./common_icons/Loupe.png" alt="search">
+        <a class="header__link a" href="#">CONTACT US</a>
     </header>
     <main>
-        <section class="where">
+        <section class="where container">
             <h1 class="where__title">Toy for kids</h1>
-            <a class="where__link" href="#">Home</a>
-            <img class="where__image" src="" alt="arrow">
-            <a class="where__link" href="#">Catalog</a>
-            <img class="where__image" src="" alt="arrow">
-            <p class="where__description">Toys</p>
+            <div class="first__wrap">
+                <a class="where__link a" href="#">Home</a>
+                <img class="where__image" src="./Toys_img/arrow.png" alt="arrow">
+                <a class="where__link a" href="#">Catalog</a>
+                <img class="where__image" src="./Toys_img/arrow.png" alt="arrow">
+                <p class="where__description">Toys</p>
+            </div>
         </section>
-        <section class="setting">
-            <h2 class="hidden">Something</h2>
-            <ul class="setting__list">
-                <li class="setting__list__item">
-                    <h2 class="setting__list__item__title">Cost</h2>
-                    <img class="setting__list__item__image" src="" alt="rectangle">
-                    <img class="setting__list__item__image" src="" alt="circle">
-                    <p class="setting__list__item__description">0</p>
-                    <p class="setting__list__item__description">500</p>
-                </li>
-                <li class="setting__list__item">
-                    <h2 class="setting__list__item__title">Color</h2>
-                    <button class="setting__list__button1" type="button"></button>
-                    <p class="setting__list__item__description">Black</p>
-                    <button class="setting__list__button1" type="button"></button>
-                    <p class="setting__list__item__description">Blue</p>
-                    <button class="setting__list__button1" type="button"></button>
-                    <p class="setting__list__item__description">Green</p>
-                    <button class="setting__list__button1" type="button"></button>
-                    <p class="setting__list__item__description">White</p>
-                </li>
-                <li class="setting__list__item">
-                    <h2 class="setting__list__item__title">Delivery</h2>
-                    <button class="setting__list__button2" type="button"></button>
-                    <p class="setting__list__item__description">Free shipping</p>
-                    <button class="setting__list__button2" type="button"></button>
-                    <p class="setting__list__item__description">Fast shipping</p>
-                </li>
-                <li class="setting__list__item">
-                    <h2 class="setting__list__item__title">Amount</h2>
-                    <button class="setting__list__button3" type="button">0-5</button>
-                    <button class="setting__list__button3" type="button">10-20</button>
-                    <button class="setting__list__button3" type="button">20-50</button>
-                </li>
-            </ul>
-            <button class="setting__mainbutton" type="button">APPLY</button>
+        <section class="back">
+            <section class="setting container">
+                <h2 class="hidden">Something</h2>
+                <form class="form_1" action="settings">
+                    <legend class="naming">Cost</legend>
+                    <input class="runner" type="range" min="0" max="500">
+                    <p class="min_meaning">0</p>
+                    <p class="max_meaning">500</p>
+                </form>
+                <form class="form_2" action="settings">
+                    <legend class="naming">Color</legend>
+                    <div class="boxes">
+                        <div class="box__in__boxes">
+                            <input type="checkbox" id="Black" name="Black" value="yes">
+                            <label class="box_naming" for="Black">Black</label>
+                        </div>
+                        <div class="box__in__boxes">
+                            <input type="checkbox" id="Blue" name="Blue" value="yes">
+                            <label class="box_naming" for="Blue">Blue</label>
+                        </div>
+                        <div class="box__in__boxes">
+                            <input type="checkbox" id="Green" name="Green" value="yes">
+                            <label class="box_naming" for="Green">Green</label>
+                        </div>
+                        <div class="box__in__boxes">
+                            <input type="checkbox" id="White" name="White" value="yes">
+                            <label class="box_naming" for="White">White</label>
+                        </div>
+                    </div>
+                </form>
+                <form class="form_3" action="settings">
+                    <legend class="naming">Delivery</legend>
+                    <div class="boxes">
+                        <div class="box__in__boxes">
+                            <input type="radio" id="1" name="ahaha" value="yes">
+                            <label class="box_naming" for="1">Free shipping</label>
+                        </div>
+                        <div class="box__in__boxes">
+                            <input type="radio" id="2" name="ahaha" value="yes">
+                            <label class="box_naming" for="2">Fast shipping</label>
+                        </div>
+                    </div>
+                </form>
+                <form class="form_4" action="settings">
+                    <legend class="naming">Amount</legend>
+                    <div class="difficult">
+                        <input type="radio" id="11" name="hehehe" value="yes" placeholder="0-5">
+                        <label class="box_naming b" for="11">0-5</label>
+                        <input type="radio" id="22" name="hehehe" value="yes">
+                        <label class="box_naming b" for="22">10-20</label>
+                        <input type="radio" name="hehehe" id="33" value="yes">
+                        <label class="box_naming b" for="33">20-50</label>
+                    </div>
+                </form>
+                <div class="bottom_wrap"><button class="setting__button special__write" type="button">APPLY</button></div>
+            </section>
         </section>
-        <div class="catalog">
+        <div class="catalog container">
             <h2 class="hidden">Something</h2>
-            <ul class="catalog__list">
-                <li class="catalog__list__item">
-                    <img class="catalog__list__image" src="" alt="SHARKY BEAN BAG CHAIR COVER">
-                    <h2 class="catalog__list__title">SHARKY BEAN BAG CHAIR COVER</h2>
+            <ul class="catalog__list onemore">
+                <li class="catalog__list__item undotted">
+                    <img class="catalog__list__image" src="./Toys_img/Shark.png" alt="SHARKY BEAN BAG CHAIR COVER">
+                    <h2 class="catalog__list__title2">SHARKY BEAN BAG CHAIR COVER</h2>
                     <p class="catalog__list__description">$60.00 USD</p>
                 </li>
-                <li class="catalog__list__item">
-                    <img class="catalog__list__image" src="" alt="BRASS DECO FRAMES">
-                    <h2 class="catalog__list__title">BRASS DECO FRAMES</h2>
+                <li class="catalog__list__item undotted">
+                    <img class="catalog__list__image" src="./Toys_img/Brass_frames.png" alt="BRASS DECO FRAMES">
+                    <h2 class="catalog__list__title2">BRASS DECO FRAMES</h2>
                     <p class="catalog__list__description">$66.00 USD</p>
                 </li>
-                <li class="catalog__list__item">
-                    <img class="catalog__list__image" src="" alt="CIBO FULL APRON">
-                    <h2 class="catalog__list__title">CIBO FULL APRON</h2>
+                <li class="catalog__list__item undotted">
+                    <img class="catalog__list__image" src="./Toys_img/Arron.png" alt="CIBO FULL APRON">
+                    <h2 class="catalog__list__title2">CIBO FULL APRON</h2>
                     <p class="catalog__list__description">$60.00 USD</p>
                 </li>
-                <li class="catalog__list__item">
-                    <img class="catalog__list__image" src="" alt="GATCHA GATCHA GUMBALL MACHINE">
-                    <h2 class="catalog__list__title">GATCHA GATCHA GUMBALL MACHINE</h2>
+            </ul>
+            <ul class="catalog__list">
+                <li class="catalog__list__item undotted">
+                    <img class="catalog__list__image" src="./Toys_img/Gumballs.png" alt="GATCHA GATCHA GUMBALL MACHINE">
+                    <h2 class="catalog__list__title2">GATCHA GATCHA GUMBALL MACHINE</h2>
                     <p class="catalog__list__description">$56.00 USD</p>
                 </li>
-                <li class="catalog__list__item">
-                    <img class="catalog__list__image" src="" alt="CHRISTMAS ADVENT SCENTED CANDLE">
-                    <h2 class="catalog__list__title">CHRISTMAS ADVENT SCENTED CANDLE</h2>
+                <li class="catalog__list__item undotted">
+                    <img class="catalog__list__image" src="./Toys_img/Candle.png" alt="CHRISTMAS ADVENT SCENTED CANDLE">
+                    <h2 class="catalog__list__title2">CHRISTMAS ADVENT SCENTED CANDLE</h2>
                     <p class="catalog__list__description">$29.00 USD</p>
                 </li>
-                <li class="catalog__list__item">
-                    <img class="catalog__list__image" src="" alt="TANGLE SPINNING TEA LIGHT">
-                    <h2 class="catalog__list__title">TANGLE SPINNING TEA LIGHT</h2>
+                <li class="catalog__list__item undotted">
+                    <img class="catalog__list__image" src="./Toys_img/Tea_light.png" alt="TANGLE SPINNING TEA LIGHT">
+                    <h2 class="catalog__list__title2">TANGLE SPINNING TEA LIGHT</h2>
                     <p class="catalog__list__description">$56.00 USD</p>
                 </li>
             </ul>
-            <ul class="catalog__list2">
-                <li class="catalog__list2__item">
-                    <button class="catalog__list2__page" type="button">1</button>
+            <ul class="catalog__list2 container">
+                <li class="catalog__list2__item undotted">
+                    <button class="catalog__list2__page1" type="button">1</button>
                 </li>
-                <li class="catalog__list2__item">
-                    <button class="catalog__list2__page" type="button">2</button>
+                <li class="catalog__list2__item undotted">
+                    <button class="catalog__list2__page2" type="button">2</button>
                 </li>
-                <li class="catalog__list2__item">
-                    <button class="catalog__list2__page" type="button">3</button>
+                <li class="catalog__list2__item undotted">
+                    <button class="catalog__list2__page2" type="button">3</button>
                 </li>
-                <li class="catalog__list2__item">
-                    <button class="catalog__list2__page" type="button">4</button>
+                <li class="catalog__list2__item undotted">
+                    <button class="catalog__list2__page2" type="button">4</button>
                 </li>
             </ul>
         </div>
     </main>
-    <footer class="footer">
-        <section class="footer__inner">
-            <h2 class="footer__inner__title">Navigation</h2>
-            <ul class="footer__inner__list">
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#">About Us</a></li>
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#">Blog</a></li>
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#">Design Services</a></li>
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#">Featured On</a></li>
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#">2018 Holiday Catalog</a></li>
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#">Shop By Designer</a></li>
-            </ul>
+    <footer class="footer__toys">
+        <section class="third__wrap">
+            <section class="footer__inner">
+                <h2 class="footer__inner__title">Navigation</h2>
+                <img class="short__line" src="./common_icons/Line.png" alt="line">
+                <ul class="footer__inner__list">
+                    <li class="footer__inner__list__item__first undotted"><a class="footer__inner__list__link a" href="#">About Us</a></li>
+                    <li class="footer__inner__list__item undotted"><a class="footer__inner__list__link a" href="#">Blog</a></li>
+                    <li class="footer__inner__list__item undotted"><a class="footer__inner__list__link a" href="#">Design Services</a></li>
+                    <li class="footer__inner__list__item undotted"><a class="footer__inner__list__link a" href="#">Featured On</a></li>
+                    <li class="footer__inner__list__item undotted"><a class="footer__inner__list__link a" href="#">2018 Holiday Catalog</a></li>
+                    <li class="footer__inner__list__item undotted"><a class="footer__inner__list__link a" href="#">Shop By Designer</a></li>
+                </ul>
+            </section>
+            <section class="footer__inner">
+                <h2 class="footer__inner__title">Customer Information</h2>
+                <img class="short__line" src="./common_icons/Line.png" alt="line">
+                <ul class="footer__inner__list">
+                    <li class="footer__inner__list__item__first undotted"><a class="footer__inner__list__link a" href="#">Contact Us</a></li>
+                    <li class="footer__inner__list__item undotted"><a class="footer__inner__list__link a" href="#">Sale Exclusions</a></li>
+                    <li class="footer__inner__list__item undotted"><a class="footer__inner__list__link a" href="#">Shipping & Returns</a></li>
+                    <li class="footer__inner__list__item undotted"><a class="footer__inner__list__link a" href="#">Shipping & Returns</a></li>
+                    <li class="footer__inner__list__item undotted"><a class="footer__inner__list__link a" href="#">Privacy Policy</a></li>
+                    <li class="footer__inner__list__item undotted"><a class="footer__inner__list__link a" href="#">Search</a></li>
+                </ul>
+            </section>
+            <section class="footer__inner">
+                <h2 class="footer__inner__title">Connect</h2>
+                <img class="short__line" src="./common_icons/Line.png" alt="line">
+                <form class="email" action="handler.php">
+                    <label class="email__frame" for="username"><input class="type__area" type="text" placeholder="Email"></label>
+                    <button class="footer__button special__write a" type="button">JOIN</button>
+                </form>
+                <ul class="footer__inner__list__partners">
+                    <li class="footer__inner__list__item undotted"><a class="footer__inner__list__link a" href="#"><img class="footer__inner__list__image" src="./common_icons/Facebook.png" alt="facebook logo"></a></li>
+                    <li class="footer__inner__list__item undotted"><a class="footer__inner__list__link a" href="#"><img class="footer__inner__list__image" src="./common_icons/Twitter.png" alt="twitter logo"></a></li>
+                    <li class="footer__inner__list__item undotted"><a class="footer__inner__list__link a" href="#"><img class="footer__inner__list__image" src="./common_icons/Pinterest.png" alt="some logo"></a></li>
+                    <li class="footer__inner__list__item undotted"><a class="footer__inner__list__link a" href="#"><img class="footer__inner__list__image" src="./common_icons/Instagram.png" alt="instagram logo"></a></li>
+                </ul>
+            </section>
         </section>
-        <section class="footer__inner">
-            <h2 class="footer__inner__title">Customer Information</h2>
-            <ul class="footer__inner__list">
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#">Contact Us</a></li>
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#">Sale Exclusions</a></li>
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#">Shipping & Returns</a></li>
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#">Shipping & Returns</a></li>
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#">Privacy Policy</a></li>
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#">Search</a></li>
-            </ul>
-        </section>
-        <section class="footer__inner">
-            <h2 class="footer__inner__title">Connect</h2>
-            <button type="button">JOIN</button>
-            <ul class="footer__inner__list">
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#"><img class="footer__inner__list__image" src="" alt="facebook logo"></a></li>
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#"><img class="footer__inner__list__image" src="" alt="twitter logo"></a></li>
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#"><img class="footer__inner__list__image" src="" alt="some logo"></a></li>
-                <li class="footer__inner__list__item"><a class="footer__inner__list__link" href="#"><img class="footer__inner__list__image" src="" alt="instagram logo"></a></li>
-            </ul>
-        </section>
-        <section class="footer__inner">
+        <section class="footer__inner__bottom container">
             <h2 class="hidden">Something needed</h2>
-            <p class="footer__inner__description">Company rating</p>
-            <ul class="footer__inner__list">
-                <li class="footer__inner__list__item"><img class="footer__inner__image" src="#" alt="star"></li>
-                <li class="footer__inner__list__item"><img class="footer__inner__image" src="#" alt="star"></li>
-                <li class="footer__inner__list__item"><img class="footer__inner__image" src="#" alt="star"></li>
-                <li class="footer__inner__list__item"><img class="footer__inner__image" src="#" alt="star"></li>
-                <li class="footer__inner__list__item"><img class="footer__inner__image" src="#" alt="star"></li>
-            </ul>
-            <p class="footer__inner__description">Copyright © 2018 Dlk • Design Life Kids</p>
-            <p class="footer__inner__description">Web Design — Direct Line Development</p>
+            <img class="long__line" src="./common_icons/Long_line.png" alt="long_line">
+            <div class="last__wrap">
+                <p class="footer__inner__description">Company rating</p>
+                <ul class="footer__inner__list__stars">
+                    <li class="footer__inner__list__item undotted"><img class="footer__inner__image" src="./common_icons/Star.png" alt="star"></li>
+                    <li class="footer__inner__list__item undotted"><img class="footer__inner__image" src="./common_icons/Star.png" alt="star"></li>
+                    <li class="footer__inner__list__item undotted"><img class="footer__inner__image" src="./common_icons/Star.png" alt="star"></li>
+                    <li class="footer__inner__list__item undotted"><img class="footer__inner__image" src="./common_icons/Star.png" alt="star"></li>
+                    <li class="footer__inner__list__item undotted"><img class="footer__inner__image" src="./common_icons/Star.png" alt="star"></li>
+                </ul>
+                <p class="footer__inner__description__k">Copyright © 2018 Dlk • Design Life Kids</p>
+                <p class="footer__inner__description__d">Web Design — Direct Line Development</p>
+            </div>
         </section>
     </footer>
 </body>

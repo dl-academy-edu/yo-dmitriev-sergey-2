@@ -1,9 +1,39 @@
+<img class="setting__list__item__image" src="" alt="rectangle">
+<img class="setting__list__item__image" src="" alt="circle">
 
-<img class="categories__list__image__h" src="./index_img/categories_shirt.png" alt="Categories">
+<p class="setting__list__item__description">0</p>
+<p class="setting__list__item__description">500</p>
 
-<img class="categories__list__image" src="./index_img/categories__sock.png" alt="Categories">
 
-<img class="categories__list__image" src="./index_img/categories__dear.png" alt="Categories">
+/* Это настройки от пользователя на странице Toys */
 
-<img class="categories__list__image" src="./index_img/categories__dude.png" alt="Categories">
-
+<ul class="setting__list">
+<li class="setting__list__item__1">
+    <h2 class="setting__list__item__title">Cost</h2>
+    <input class="runner" type="range" max="500" min="0">
+</li>
+<li class="setting__list__item__2">
+    <h2 class="setting__list__item__title">Color</h2>
+    <button class="setting__list__button1" type="button"></button>
+    <p class="setting__list__item__description">Black</p>
+    <button class="setting__list__button1" type="button"></button>
+    <p class="setting__list__item__description">Blue</p>
+    <button class="setting__list__button1" type="button"></button>
+    <p class="setting__list__item__description">Green</p>
+    <button class="setting__list__button1" type="button"></button>
+    <p class="setting__list__item__description">White</p>
+</li>
+<li class="setting__list__item__3">
+    <h2 class="setting__list__item__title">Delivery</h2>
+    <button class="setting__list__button2" type="button"></button>
+    <p class="setting__list__item__description">Free shipping</p>
+    <button class="setting__list__button2" type="button"></button>
+    <p class="setting__list__item__description">Fast shipping</p>
+</li>
+<li class="setting__list__item__4">
+    <h2 class="setting__list__item__title">Amount</h2>
+    <button class="setting__list__button3" type="button">0-5</button>
+    <button class="setting__list__button3" type="button">10-20</button>
+    <button class="setting__list__button3" type="button">20-50</button>
+</li>
+</ul>

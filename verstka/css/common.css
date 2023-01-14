@@ -10,6 +10,11 @@
     list-style-type: none;
 }
 
+.container { 
+    max-width: 1180px; 
+    margin: 0 auto; 
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -20,7 +25,6 @@
 .header__logo {
     width: 100.08px;
     height: 52px;
-    margin-left: 109px;
     margin-right: 35px;
 }
 
@@ -41,7 +45,6 @@
 
 .header__link {
     display: inline;
-    margin-right: 110px;
     margin-left: 23.48px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -152,6 +155,18 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
+    margin-left: 52px;
+    color: #FFFFFF;
+}
+
+.footer__inner__description__k {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-left: 0px;
+    margin-right: 77.5px;
     color: #FFFFFF;
 }
 
@@ -167,8 +182,8 @@
 .footer__inner__list__partners {
     display: flex;
     margin-top: 10px;
-    margin-left: -40px;
     gap: 10px;
+    margin-left: -40px;
 }
 
 .footer__inner__list__image {
@@ -177,9 +192,8 @@
 }
 
 .long__line {
-    margin-left: 110px;
-    margin-right: 110px;
-    width: 1079px;
+    width: 1078px;
+    margin-left: 53px;
 }
 
 .footer__inner__list__stars {
@@ -192,11 +206,6 @@
 
 .last__wrap {
     display: flex;
-    margin-left: 110px;
     margin-top: 12px;
     padding-bottom: 103px;
-}
-
-.addition {
-    margin-right: 77.5px;
 }

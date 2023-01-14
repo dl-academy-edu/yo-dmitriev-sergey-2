@@ -6,7 +6,6 @@
     line-height: 49px;
     text-transform: uppercase;
     color: #1E0606;
-    margin-left: 110px;
     margin-top: 60px;
 }
 
@@ -41,7 +40,6 @@
 
 .where__you__are {
     display: flex;
-    margin-left: 110px;
     gap: 20px;
 }
 
@@ -69,14 +67,14 @@
 
 .categories__list__1 {
     display: flex;
-    margin-left: 70px;
     margin-top: -60px;
+    margin-left: -40px;
     gap: 20px;
 }
 
 .categories__list__2 {
     display: flex;
-    margin-left: 250px;
+    margin-left: 165px;
     gap: 20px;
 }
 
@@ -102,6 +100,10 @@
     align-items: center;
 }
 
+.about {
+    margin-top: 40px;
+}
+
 .about__title {
     font-family: 'Montserrat';
     font-style: normal;
@@ -109,8 +111,8 @@
     font-size: 38px;
     line-height: 46px;
     text-transform: uppercase;
-    color: #1E0606;
     margin-left: 287px;
+    color: #1E0606;
 }
 
 .about__list {
