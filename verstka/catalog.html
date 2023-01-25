@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/Blog.css">
     <link rel="stylesheet" href="./css/catalog.css">
+    <link rel="stylesheet" href="./css/ContactUs.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Catalog</title>
@@ -20,7 +23,7 @@
             <li class="header__list__item undotted"><a class="header__list__link a" href="#">ABOUT US</a></li>
         </ul>
         <img class="header__image" src="./common_icons/Loupe.png" alt="search">
-        <a class="header__link a" href="#">CONTACT US</a>
+        <a class="header__link js_btn a" href="#">CONTACT US</a>
     </header>
     <main>
         <section class="categories container">
@@ -132,5 +135,36 @@
             </div>
         </section>
     </footer>
+    <div class="popup">
+        <div class="fade">
+            <form class="userdata" action="handler.php">
+                <div class="last_wrap">
+                    <label class="userdata__frame otstup" for="username">Name</label>
+                    <input class="text1" type="text">
+                </div>
+                <div class="special_wrap">
+                    <div class="perfect_wrap">
+                        <label class="userdata__frame" for="username">Phone</label>
+                        <input class="text2" type="text">
+                    </div>
+                    <div class="perfect_wrap">
+                        <label class="userdata__frame" for="username">Email</label>
+                        <input class="text3" type="text">
+                    </div>
+                </div>
+                <div class="last_wrap">
+                    <label class="userdata__frame" for="username">Message</label>
+                    <input class="text4" type="text">
+                </div>
+                <div class="accept_setting">
+                    <input class="check" type="checkbox" id="accept" value="yes">
+                    <label class="condition" for="accept">By clicking on the button, you consent to the processing of your personal data</label>
+                </div>
+                <div class="needed"><button class="special__button special__write button_wrap" type="button">SUBMIT</button></div>
+                <button type="button" class="exit"><img class="cross" src="./common_icons/exit_sign.png" alt="exit"></button>
+            </form>
+        </div>
+    </div>
+    <script src="./common_js/common.js"></script>
 </body>
 </html>

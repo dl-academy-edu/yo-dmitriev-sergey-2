@@ -155,7 +155,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    margin-left: 52px;
+    margin-left: 45px;
     color: #FFFFFF;
 }
 
@@ -193,7 +193,7 @@
 
 .long__line {
     width: 1078px;
-    margin-left: 53px;
+    margin-left: 45px;
 }
 
 .footer__inner__list__stars {
@@ -208,4 +208,41 @@
     display: flex;
     margin-top: 12px;
     padding-bottom: 103px;
+}
+
+.popup {
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    background: rgba(125, 151, 218, 0.8);
+    z-index: 5;
+}
+
+.open {
+    display: flex;
+}
+
+.exit {
+    display: block;
+    position: absolute;
+    background: none;
+    border: none;
+    left: 646px;
+    top: 0px;
+}
+
+.cross {
+    width: 10px;
+    height: 10px;
+}
+
+.fade {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: rgba(125, 151, 218, 0.8);
 }

@@ -18,6 +18,9 @@
     flex-direction: column;
     justify-content: left;
     background: #E5EAF8;
+    position: absolute;
+    left: 25%;
+    top: 13%;
 }
 
 .last_wrap {
