@@ -126,3 +126,38 @@
 .button_wrap {
     margin-left: 30px;
 }
+
+
+
+.back2_2 {
+    display: flex;
+}
+
+.userdata_2 {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: left;
+    background: #E5EAF8;
+    left: 25%;
+    top: 13%;
+}
+
+.last_wrap_2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.perfect_wrap_2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.special_wrap_2 {
+    display: flex;
+    gap: 14px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

@@ -73,9 +73,11 @@
 
 .third__wrap {
     display: flex;
-    margin-left: 110px;
-    margin-right: 110px;
     gap: 25px;
+}
+
+.footer__inner__bottom {
+    display: flex;
 }
 
 .footer__inner__title {
@@ -97,7 +99,7 @@
 }
 
 .short__line {
-    width: 343px;
+    width: 374px;
     height: 1px;
 }
 
@@ -155,7 +157,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    margin-left: 45px;
     color: #FFFFFF;
 }
 
@@ -165,7 +166,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    margin-left: 0px;
+    margin-left: 30px;
     margin-right: 77.5px;
     color: #FFFFFF;
 }
@@ -176,6 +177,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
+    margin-left: 33px;
     color: #A2A2A2;
 }
 
@@ -192,8 +194,8 @@
 }
 
 .long__line {
-    width: 1078px;
-    margin-left: 45px;
+    width: 1172px;
+    height: 1px;
 }
 
 .footer__inner__list__stars {
