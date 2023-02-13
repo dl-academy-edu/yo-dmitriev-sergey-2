@@ -17,18 +17,18 @@
     <header class="header container">
         <img class="header__logo" src="./img/Union.png" alt="logo">
         <ul class="header__list">
-            <li class="header__list__item undotted"><a class="header__list__link a" href="./Blog.html">BLOG</a></li>
-            <li class="header__list__item undotted"><a class="header__list__link a" href="./catalog.html">CATALOG</a></li>
+            <li class="header__list__item undotted"><a class="header__list__link a" href="#">BLOG</a></li>
+            <li class="header__list__item undotted"><a class="header__list__link a" href="#">CATALOG</a></li>
             <li class="header__list__item undotted"><a class="header__list__link a" href="#">ABOUT US</a></li>
         </ul>
         <img class="header__image" src="./img/Loupe.png" alt="search">
-        <a class="header__link a" href="./ContactUs.html">CONTACT US</a>
+        <a class="header__link js_btn a" href="#">CONTACT US</a>
     </header>
     <main>
         <section class="where container">
             <h1 class="where__title">BLOG</h1>
             <div class="first__wrap">
-                <a class="where__link a" href="./index.html">Home</a>
+                <a class="where__link a" href="#">Home</a>
                 <img class="where__image" src="./img/arrow.png" alt="arrow">
                 <p class="where__description">Blog</p>
             </div>
@@ -92,7 +92,7 @@
     </main>
     <footer class="footer__blog">
         <section class="third__wrap container">
-            <h2 class="hidden">nado</h2>
+            <h2 class="hidden">Nado</h2>
             <section class="footer__inner">
                 <h2 class="footer__inner__title">Navigation</h2>
                 <img class="short__line" src="./img/Line.png" alt="line">
@@ -121,7 +121,7 @@
                 <h2 class="footer__inner__title">Connect</h2>
                 <img class="short__line" src="./img/Line.png" alt="line">
                 <form class="email" action="handler.php">
-                    <label class="email__frame" for="username44"><input class="type__area" type="text" id="username44" placeholder="Email"></label>
+                    <label class="email__frame" for="username1"><input class="type__area" type="text" id="username1" placeholder="Email"></label>
                     <button class="footer__button special__write a" type="button">JOIN</button>
                 </form>
                 <ul class="footer__inner__list__partners">
@@ -151,5 +151,36 @@
             </div>
         </section>
     </footer>
+    <div class="popup">
+        <div class="fade">
+            <form class="userdata" action="handler.php">
+                <div class="last_wrap">
+                    <label class="userdata__frame otstup" for="username">Name</label>
+                    <input class="text1" type="text">
+                </div>
+                <div class="special_wrap">
+                    <div class="perfect_wrap">
+                        <label class="userdata__frame" for="username">Phone</label>
+                        <input class="text2" type="text">
+                    </div>
+                    <div class="perfect_wrap">
+                        <label class="userdata__frame" for="username">Email</label>
+                        <input class="text3" type="text">
+                    </div>
+                </div>
+                <div class="last_wrap">
+                    <label class="userdata__frame" for="username">Message</label>
+                    <input class="text4" type="text">
+                </div>
+                <div class="accept_setting">
+                    <input class="check" type="checkbox" id="accept" value="yes">
+                    <label class="condition" for="accept">By clicking on the button, you consent to the processing of your personal data</label>
+                </div>
+                <div class="needed"><button class="special__button special__write button_wrap" type="button">SUBMIT</button></div>
+                <button type="button" class="exit"><img class="cross" src="./common_icons/exit_sign.png" alt="exit"></button>
+            </form>
+        </div>
+    </div>
+    <script src="./common_js/common.js"></script>
 </body>
 </html>

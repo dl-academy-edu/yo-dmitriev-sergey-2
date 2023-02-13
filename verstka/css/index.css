@@ -5,6 +5,10 @@
     padding-bottom: 69px;
 }
 
+.short1 {
+    max-width: 400px;
+}
+
 .slides__list__title {
     font-family: 'Montserrat';
     font-style: normal;
@@ -138,6 +142,7 @@
     color: #FFFFFF;
     margin-left: auto;
     margin-right: auto;
+    max-width: 200px;
 }
 
 .categories__list {
@@ -245,6 +250,7 @@
     font-size: 16px;
     line-height: 22px;
     color: #1E0606;
+    max-width: 550px;
 }
 
 .about__list__description {
@@ -256,6 +262,7 @@
     color: #1E0606;
     margin-left: 60px;
     margin-top: 20px;
+    max-width: 470px;
 }
 
 .about__description {
@@ -265,6 +272,7 @@
     font-size: 16px;
     line-height: 22px;
     color: #1E0606;
+    max-width: 470px;
 }
 
 .banner {
