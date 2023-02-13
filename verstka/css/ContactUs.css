@@ -96,7 +96,8 @@
 
 .describe {
     margin-top: -22px;
-    margin-left: 120px;
+    margin-left: 110px;
+    max-width: 620px;
 }
 
 .describe__description {

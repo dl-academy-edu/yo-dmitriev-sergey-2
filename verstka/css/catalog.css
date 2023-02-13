@@ -108,6 +108,8 @@
     flex-direction: column;
     margin-top: 55px;
     margin-bottom: 20px;
+    max-width: 720px;
+    margin-left: 225px;
 }
 
 .about__title {
@@ -117,17 +119,16 @@
     font-size: 38px;
     line-height: 46px;
     text-transform: uppercase;
-    margin-left: 287px;
     color: #1E0606;
+    margin-left: 37px;
 }
 
 .about__list {
     display: block;
-    margin-left: 188px;
     margin-top: 10px;
 }
 
-.about__list__description {
+.about__list__description__hhh {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
