@@ -40,20 +40,20 @@
 }
 
 .text1 {
-    width: 580px;
-    height: 25px;
+    width: 600px;
+    height: 45px;
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .text2 {
-    width: 280px;
-    height: 25px;
+    width: 290px;
+    height: 45px;
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .text3 {
-    width: 280px;
-    height: 25px;
+    width: 294px;
+    height: 45px;
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
@@ -96,7 +96,8 @@
 
 .describe {
     margin-top: -22px;
-    margin-left: 120px;
+    margin-left: 110px;
+    max-width: 620px;
 }
 
 .describe__description {
@@ -121,8 +122,51 @@
 .needed {
     display: inline-block;
     padding-bottom: 40px;
+    padding-left: 10px;
 }
 
 .button_wrap {
     margin-left: 30px;
+}
+
+
+
+.back2_2 {
+    display: flex;
+}
+
+.userdata_2 {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: left;
+    background: #E5EAF8;
+    left: 25%;
+    top: 13%;
+}
+
+.last_wrap_2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.perfect_wrap_2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.special_wrap_2 {
+    display: flex;
+    gap: 14px;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.accept_setting_2 {
+    display: flex;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }

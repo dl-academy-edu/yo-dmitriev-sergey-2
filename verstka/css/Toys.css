@@ -1,6 +1,13 @@
 .footer__toys {
-    margin-top: 85px;
+    margin-top: 55px;
     background-color: #434343;
+}
+
+.where {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 5px;
 }
 
 .where__title {
@@ -67,7 +74,7 @@
 }
 
 .form_1 {
-    margin-right: 80px;
+    margin-right: 110px;
 }
 
 .form_1 input {
@@ -99,7 +106,7 @@
 }
 
 .form_2 {
-    margin-right: 80px;
+    margin-right: 110px;
 }
 
 .box_naming {
@@ -122,7 +129,7 @@
 }
 
 .form_3 {
-    margin-right: 80px;
+    margin-right: 110px;
 }
 
 .boxes {
@@ -147,7 +154,7 @@
 }
 
 .form_4 {
-    margin-right: 80px;
+    margin-right: 110px;
 }
 
 .difficult {
@@ -254,7 +261,7 @@
 
 .catalog__list2 {
     display: flex;
-    gap: 35px;
+    gap: 50px;
     justify-content: center;
-    padding-top: 30px;
+    padding-top: 25px;
 }

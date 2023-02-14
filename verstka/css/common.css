@@ -25,13 +25,13 @@
 .header__logo {
     width: 100.08px;
     height: 52px;
-    margin-right: 35px;
+    margin-right: 20px;
 }
 
 .header__list {
     display: flex;
     align-items: center;
-    gap: 20.02px;
+    gap: 20px;
     margin-right: auto;
 }
 
@@ -48,17 +48,17 @@
     margin-left: 23.48px;
     font-family: 'Open Sans';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 14px;
     color: #1E0606;
 }
 
 .special__button {
     display: inline-block;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    padding-left: 22px;
-    padding-right: 22px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 26px;
+    padding-right: 26px;
     background: #000000;
 }
 
@@ -73,9 +73,11 @@
 
 .third__wrap {
     display: flex;
-    margin-left: 110px;
-    margin-right: 110px;
     gap: 25px;
+}
+
+.footer__inner__bottom {
+    display: flex;
 }
 
 .footer__inner__title {
@@ -97,7 +99,7 @@
 }
 
 .short__line {
-    width: 343px;
+    width: 374px;
     height: 1px;
 }
 
@@ -155,7 +157,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    margin-left: 45px;
     color: #FFFFFF;
 }
 
@@ -165,7 +166,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    margin-left: 0px;
+    margin-left: 30px;
     margin-right: 77.5px;
     color: #FFFFFF;
 }
@@ -176,6 +177,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
+    margin-left: 33px;
     color: #A2A2A2;
 }
 
@@ -192,8 +194,8 @@
 }
 
 .long__line {
-    width: 1078px;
-    margin-left: 45px;
+    width: 1172px;
+    height: 1px;
 }
 
 .footer__inner__list__stars {

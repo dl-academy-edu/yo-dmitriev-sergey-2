@@ -7,6 +7,7 @@
     text-transform: uppercase;
     color: #1E0606;
     margin-top: 60px;
+    margin-bottom: 14px;
 }
 
 .categories__image {
@@ -41,6 +42,7 @@
 .where__you__are {
     display: flex;
     gap: 20px;
+    padding-bottom: 20px;
 }
 
 .categories__list__image__flamingo {
@@ -70,11 +72,12 @@
     margin-top: -60px;
     margin-left: -40px;
     gap: 20px;
+    margin-bottom: 23px;
 }
 
 .categories__list__2 {
     display: flex;
-    margin-left: 165px;
+    margin-left: 160px;
     gap: 20px;
 }
 
@@ -101,7 +104,12 @@
 }
 
 .about {
-    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+    margin-bottom: 20px;
+    max-width: 720px;
+    margin-left: 225px;
 }
 
 .about__title {
@@ -111,17 +119,16 @@
     font-size: 38px;
     line-height: 46px;
     text-transform: uppercase;
-    margin-left: 287px;
     color: #1E0606;
+    margin-left: 37px;
 }
 
 .about__list {
     display: block;
-    margin-left: 188px;
-    margin-top: -12px;
+    margin-top: 10px;
 }
 
-.about__list__description {
+.about__list__description__hhh {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -131,6 +138,6 @@
 }
 
 .footer__catalog {
-    margin-top: 0px;
+    margin-top: 50px;
     background-color: #434343;
 }
